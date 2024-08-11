@@ -1,0 +1,33 @@
+.banner {
+  width: 100%;
+  margin-block: 1rem;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.slider {
+  justify-content: start;
+}
+
+.slide {  
+  scroll-snap-align: start;
+}
+
+.scroll__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll__left {
+  left: 0;
+}
+
+.scroll__right {
+  right: 0;
+}

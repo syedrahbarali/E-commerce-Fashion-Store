@@ -1,0 +1,14 @@
+.category {
+  width: 100%;
+  height: max-content;
+  background: white;
+}
+
+.category__item {
+  text-align: center;
+  margin-inline: 1rem;
+}
+
+.category__item img {
+  height: 64px;
+}

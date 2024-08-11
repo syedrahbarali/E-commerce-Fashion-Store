@@ -1,0 +1,11 @@
+.auth-page {
+  margin-top: var(--header-height);
+  width: fit-content;
+  padding-inline: 1rem;
+  margin-inline: auto;
+}
+
+.auth-page .logo {
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.signin {
+  min-width: 320px;
+}
+
+.form {
+  background-color: white;
+  min-height: 300px;
+  
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5em;
+}
+
+.forget-password {
+  color: #0000ff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
