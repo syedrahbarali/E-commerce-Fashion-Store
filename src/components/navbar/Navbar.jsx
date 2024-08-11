@@ -28,13 +28,13 @@ const Navbar = () => {
         {/* NavList */}
         <ul className={`nav-list ${showMenu ? "nav-list--active" : ""}`}>
           <li className="nav-item">
-            <a href="">Home</a>
+            <a href="/">Home</a>
           </li>
           <li className="nav-item">
-            <a href="">Contact</a>
+            <a href="/contact-us">Contact us</a>
           </li>
           <li className="nav-item">
-            <a href="">Home</a>
+            <a href="/about">About</a>
           </li>
         </ul>
 
