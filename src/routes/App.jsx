@@ -6,10 +6,12 @@ import Footer from "../components/footer/Footer";
 import Auth from "../pages/auth/Auth";
 import Signin from "../components/signin/Signin";
 import Signup from "../components/signup/Signup";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
     <div className="">
+      <Toaster />
       <Navbar />
 
       <Routes>
